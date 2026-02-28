@@ -1,0 +1,32 @@
+name: flight_labbb8
+description: A Flutter travel app to explore cities in Pakistan.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # This is the main package required for your storage code
+  shared_preferences: ^2.2.2
+
+  # Optional: standard icons for Flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Helps keep your code clean and follows best practices
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # If you decide to add local images later, you will list them here:
+  # assets:
+  #   - assets/images/
